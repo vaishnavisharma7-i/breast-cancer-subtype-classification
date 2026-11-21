@@ -51,4 +51,4 @@ python src/prepare_data.py
 python src/eda.py
 python src/model_train.py
 python src/interpret.py
-```
+**Author:** Vaishnavi Sharma``
