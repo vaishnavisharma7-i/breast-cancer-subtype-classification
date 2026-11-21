@@ -1,0 +1,9 @@
+experiment,model,n_genes,accuracy,accuracy_sd,balanced_acc,macro_f1,macro_f1_sd
+A_all_genes,Dummy,17814,0.443,0.003,0.2,0.123,0.001
+A_all_genes,LogReg,17814,0.872,0.027,0.784,0.763,0.079
+A_all_genes,RandomForest,17814,0.869,0.031,0.713,0.719,0.056
+A_all_genes,SVM,17814,0.868,0.025,0.745,0.74,0.078
+B_without_PAM50_genes,Dummy,17764,0.443,0.003,0.2,0.123,0.001
+B_without_PAM50_genes,LogReg,17764,0.866,0.029,0.778,0.76,0.086
+B_without_PAM50_genes,RandomForest,17764,0.857,0.025,0.695,0.702,0.059
+B_without_PAM50_genes,SVM,17764,0.857,0.032,0.732,0.726,0.087
