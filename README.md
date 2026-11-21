@@ -41,7 +41,6 @@ Top Logistic Regression genes per subtype include oestrogen-receptor-linked gene
 - Normal-like has only 8 tumour samples, so its metrics are unreliable.
 - Hyperparameters were fixed, not tuned. Single dataset, no external validation.
 
-
 ## Reproduce
 ```
 pip install -r requirements.txt
@@ -49,4 +48,6 @@ python src/prepare_data.py
 python src/eda.py
 python src/model_train.py
 python src/interpret.py
-**Author:** Vaishnavi Sharma``
+```
+
+**Author:** Vaishnavi Sharma
